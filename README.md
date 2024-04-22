@@ -1,4 +1,4 @@
-# Comprehensive Calculator App
+# GMATH Comprehensive Calculator App
 
 Welcome to the GitHub repository for our Comprehensive Calculator App. This application is designed to be a one-stop solution for all your calculation needs, encompassing the full range of functionalities you would expect from a calculator.
 
