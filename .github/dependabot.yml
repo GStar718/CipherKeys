@@ -5,12 +5,44 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # Replace with your package manager (e.g., "maven" for Java, "pip" for Python)
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm" # JavaScript
+    directory: "/"
     schedule:
-      interval: "daily" # Frequency of updates ("daily", "weekly", etc.)
-    open-pull-requests-limit: 10 # Maximum number of open pull requests
-  - package-ecosystem: "pip" # Add your second package manager here
-    directory: "/" # And the location of its package manifests
+      interval: "daily"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "pip" # Python
+    directory: "/"
     schedule:
-      interval: "weekly" # Choose how often to check for updates
+      interval: "weekly"
+  - package-ecosystem: "maven" # Java
+    directory: "/" # Update this if your pom.xml is not in the root directory
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget" # .NET
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "composer" # PHP
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "rubygems" # Ruby
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "cocoapods" # iOS
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gradle" # Android/Java
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "cargo" # Rust
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "docker" # Docker
+    directory: "/"
+    schedule:
+      interval: "weekly"
