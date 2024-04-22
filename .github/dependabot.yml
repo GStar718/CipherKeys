@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily" # Frequency of updates ("daily", "weekly", etc.)
     open-pull-requests-limit: 10 # Maximum number of open pull requests
-  - package-ecosystem: "" # Add your second package manager here
+  - package-ecosystem: "pip" # Add your second package manager here
     directory: "/" # And the location of its package manifests
     schedule:
       interval: "weekly" # Choose how often to check for updates
